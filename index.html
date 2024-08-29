@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        .menu-bar {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .menu-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .menu-bar a:hover {
+            text-decoration: underline;
+        }
+        .message-container {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+            position: relative;
+            margin-top: 70px; /* Adds space below the fixed menu */
+        }
+        .message-container p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .message-container .signature {
+            font-size: 20px;
+            font-weight: bold;
+            color: #e91e63;
+        }
+        .heart {
+            color: #e91e63;
+            font-size: 24px;
+        }
+        .top-left {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .top-right {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-bar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="message-container">
+        <img src="ephytony.jpg" alt="Top Left Image" class="top-left">
+        <img src="Tony.jpg" alt="Top Right Image" class="top-right">
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Hey love, I'm really sorry you're feeling this way. I can't imagine how hard it's been, but I want you to know that I'm here for you, no matter what. Life can be really tough, and it's okay to feel overwhelmed sometimes. It doesn't mean you're weak; it just means you're human.</p>
+        
+        <p>I believe in you, and even though things haven't gone the way you hoped, it doesn't mean they never will. You’re stronger than you realize, and I know you’ve been through a lot, but you’ve also come so far. I'm here to listen, support you, and remind you that you’re not alone in this. We’ll face these challenges together, one step at a time.</p>
+        
+        <p>You’ve got this, babe, and I’m right here with you. If there's anything specific you need or want to talk about, I'm all ears. <span class="heart">❤️</span></p>
+        
+        <p class="signature">From yours lovely Tony</p>
+    </div>
+</body>
+</html>
